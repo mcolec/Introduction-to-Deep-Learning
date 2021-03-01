@@ -16,3 +16,17 @@ ticker: The ticker of the underlying asset. Please refer to https://finance.yaho
 period: The trading period we want to fetch from yahoo (valid periods: 1d,5d,1mo,3mo,6mo,1y,2y,5y,10y,ytd,max)
 
 interval: The sampling interval (valid intervals: 1m,2m,5m,15m,30m,60m,90m,1h,1d,5d,1wk,1mo,3mo)
+
+# Example
+Generated sample after 500 training epochs with the following parameters:
+
+  window_size = 64
+
+  ticker = "BTC-USD"
+
+  period = "5y"
+
+  interval = "1d"
+
+![image](https://user-images.githubusercontent.com/79858178/109530129-ad982d00-7ab6-11eb-868c-f5fe900dc414.png)
+
